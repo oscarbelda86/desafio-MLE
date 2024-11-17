@@ -4,10 +4,21 @@ Proyecto de FastAPI para inferencia de modelo de machine learning y procesamient
 
 ## Instalación
 1. Clonar repositorio:
+```bash
 git clone https://github.com/oscarbelda86/desafio-MLE.git
-
-2. Instalar dependencias:
+```
+3. Instalar dependencias:
+```bash
 pip install -r requirements.txt
-
-3. Correr el servidor FastAPI:
+```
+5. Correr el servidor FastAPI:
+```bash
 uvicorn app.main:app
+```
+
+## Correr test_api
+1. Tener claims_dataset.csv en directorio principal
+2. Tener servidor FastAPI corriendo
+3. ```python
+   python test_api.py
+   ```
