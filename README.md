@@ -15,6 +15,7 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app
 ```
+## Importante: agregar archivos .pkl (pipelines y modelo) a carpeta app/models
 
 ## Correr test_api
 1. Tener claims_dataset.csv en directorio principal
@@ -22,3 +23,5 @@ uvicorn app.main:app
 3. ```python
    python test_api.py
    ```
+
+
